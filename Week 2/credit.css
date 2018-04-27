@@ -1,0 +1,46 @@
+
+h1 {
+    font-family: "Arial";
+    font-size: 60px;
+    color: red;
+}
+
+h2 {
+    font-family: "Verdana";
+    font-size: 30px;
+}
+
+h3 {
+
+    font-family: "Times New Roman";
+    font-size: 24px;
+    color: gray;
+}
+
+p {
+    font-size: 16px;
+    font-family: "Arial";
+    color: black;
+
+}
+
+#harry {
+��� font-family: "Verdana";
+    color: royalblue;
+
+}
+
+#hermione {
+��� font-family: "";
+    color: gold;
+}
+
+
+#ron {
+��� font-family: "Verdana";
+    color: brown;
+}
+.friend {
+  font-style: italic;
+  font-variant: small-caps;
+}

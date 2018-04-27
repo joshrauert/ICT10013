@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="ABS.css">
+</head>
+<body>
+<form name="Results">
+<h1>Adventure Booking System</h1>
+<h2>Joshua Rauert - 101621758</h2>
+<div class="flex-item" id="box1">
+<p>Enter customer name:</p>
+<input type="text" name="name" id=input1></input>
+<p>Enter adventure code:</p>
+<input type="text" name="advcode" id=input2></input>
+<p>Enter lunch code:</p>
+<input type="text" name="lunchcode" id=input3></input>
+<p>Enter number of people:</p>
+<input type="text" name="numpeople" id=input4></input>
+<p>Enter seller ID:</p>
+<input type="text" name="sellerID" id=input5></input><br><br>
+</div>
+<button onclick="displayADVOptions()" class="button" type = "button">show adventure options and prices</button><br><br>
+<button onclick="displayLunchOptions()" class="button" type = "button">show lunch options and prices</button><br><br>
+<button onclick="calculateTotalPayment()" class="button" type = "button">validate data and calculate total</button><br>
+<div class="flex-item" id="box2">
+<p id="Output"></p>
+</div>
+<script src="ABS.js"></script>
+</body>
+</form>

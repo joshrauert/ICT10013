@@ -1,0 +1,12 @@
+var TicketPrice;
+TicketPrice = prompt("Please enter the price of the ticket - Note: whole numbers only!");
+var TicketPrice = parseInt(TicketPrice);
+var TicketNo;
+TicketNo = prompt("Please enter the number of tickets required!");
+var TicketNo = parseInt(TicketNo);
+var TotalPayment = Number(TicketPrice) * Number(TicketNo);
+document.write("The total number of tickets ordered is: " + TicketNo);
+document.write("<br>");
+document.write("The price of each ticket is: $" + TicketPrice);
+document.write("<br>");
+document.write("The sum of your payment is: $" + TotalPayment);

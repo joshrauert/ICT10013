@@ -1,0 +1,17 @@
+.flex-container {
+display: flex;
+display: -webkit-flex;
+-webkit-flex-direction: column;
+   flex-direction: column;
+background-color: maroon;
+width: 500px;
+height: 870px;
+}
+
+.flex-item {
+width: auto;
+border: 10px solid silver;
+height: 400x;
+margin: 20px;
+background-color: khaki;
+}

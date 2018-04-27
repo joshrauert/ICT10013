@@ -1,0 +1,41 @@
+.flex-container {
+display: flex;
+display: -webkit-flex;
+background-color: gray;
+width: 500;
+height: 200;
+}
+
+.flex-item {
+width: 500px;
+border: 10px solid silver;
+height: 350px;
+margin: 20px;
+}
+
+#box1.flex-item {
+  background-color: aliceblue ;
+}
+#box2.flex-item {
+  background-color: seashell;
+}
+#box3.flex-item {
+  background-color: honeydew;
+}
+#box4.flex-item {
+  background-color: mistyrose;
+}
+.header {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+   background-color: lightsteelblue;
+ }
+ .footer {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-justify-content: right;
+   justify-content: right;
+    background-color: khaki;
+  }

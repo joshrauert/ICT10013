@@ -1,0 +1,30 @@
+#box1.flex-item {
+  color: maroon ;
+  font-family: courier;
+  font-weight: bold;
+}
+body {
+    background-color: aliceblue;
+}
+h1 {
+  color: #ea503f;
+  font-family: verdana;
+}
+h2 {
+  color: green;
+  font-family: verdana;
+}
+.button {
+    background-color: mistyrose;
+    color: black;
+    padding: 12x 26px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: verdana;
+}
+#box2.flex-item {
+  color: purple ;
+  font-family: verdana;
+  font-weight: bold;
+}
